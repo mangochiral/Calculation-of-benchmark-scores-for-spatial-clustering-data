@@ -8,8 +8,9 @@ from sklearn.metrics.cluster import normalized_mutual_info_score, rand_score,fow
 
 file_path = os.getcwd()
 print(file_path)
-if file_path != '../BayesSpaces_data/DATA_PART_2/analysis':
-    file_path = os.chdir('../BayesSpaces_data/DATA_PART_2/analysis')
+path = input("Enter file path for counts, labels, and spatial_clustering_results csv files: "):
+if file_path != path
+    file_path = os.chdir(path)
 file_path = os.getcwd()
 print(file_path)
 # List of all files and directories in a give folder
